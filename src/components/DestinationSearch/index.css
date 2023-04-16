@@ -1,0 +1,64 @@
+/* Write your CSS here */
+
+.bg-container {
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+.heading {
+  font-size: 50px;
+  color: #252627;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.search {
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .search {
+    width: 80%;
+    font-size: 20px;
+  }
+}
+
+.search-img {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 30px;
+  height: 70vh;
+  width: 40vw;
+}
+
+.search-card-container {
+  display: flex;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+}
+
+.search-card {
+  border: none;
+  outline: none;
+  padding: 5px;
+  background-color: #f1f5f9;
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 19px;
+}
